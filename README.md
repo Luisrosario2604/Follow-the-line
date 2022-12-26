@@ -114,8 +114,7 @@ Here we will only use the P and D controllers of the PID controller.
 For the PD controller we used this formula :
 
 <p align="center">
-| <img src="./imgs/formula_1.png"> |
-| :--: |
+    <img src="./imgs/formula_1.png">
 </p>
 
 The result obtained from this formula will be used to control the steering wheel direction.
@@ -124,8 +123,7 @@ Thanks to the PD controller we can adjust the intensity of the rotation of the c
 Once the rotation of the car has been calculated, we will deduce its speed (named v). Here is a representative formula of this one :
 
 <p align="center">
-| <img src="./imgs/formula_2.png"> |
-| :--: |
+    <img src="./imgs/formula_2.png">
 </p>
 
 As we can see the speed depends on the rotation of the car (v depends on the parameter w).
