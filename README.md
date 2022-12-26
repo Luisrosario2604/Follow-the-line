@@ -42,7 +42,7 @@ Wait for the Connect button to turn green and display “Connected”. Click on 
 
 ## Usage
 
-Copy and paste ```src/Follow_line.py``` in the code sections of the website exercise.
+Copy and paste ```src/Follow_line.py``` in the code section of the website exercise.
 
 ## Project details
 
@@ -50,12 +50,9 @@ We are going to solve this exercise using the Unibotics website (unibotics.org).
 
 This gives us access to a code editor and a simulator where we can see the result of it. You can find the exercise link below.
 
-
 We therefore have a Formula 1 simulator available. The goal is to finish the circuit as quickly as possible while following a red line drawn on the ground.
 
 For this we have access to the images of a camera equipped on formula 1. To direct formula 1 we can also change two parameters which are: the speed and the rotation of formula 1
-
-
 
 There is two important aspects of robotics which are: the robustness of the program and its execution time (should be real time).
 
@@ -116,16 +113,20 @@ Here we will only use the P and D controllers of the PID controller.
 
 For the PD controller we used this formula :
 
-| <p align="center"><img src="./imgs/circuit_2.jpeg"></p> |
+<p align="center">
+| <img src="./imgs/formula_1.png"> |
 | :--: |
+</p>
 
 The result obtained from this formula will be used to control the steering wheel direction.
 Thanks to the PD controller we can adjust the intensity of the rotation of the car.
 
 Once the rotation of the car has been calculated, we will deduce its speed (named v). Here is a representative formula of this one :
 
-| <p align="center"><img src="./imgs/circuit_2.jpeg"></p> |
+<p align="center">
+| <img src="./imgs/formula_2.png"> |
 | :--: |
+</p>
 
 As we can see the speed depends on the rotation of the car (v depends on the parameter w).
 
