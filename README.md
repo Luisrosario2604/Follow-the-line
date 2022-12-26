@@ -104,10 +104,10 @@ During the development of this step I choosed to represent this line in order to
 
 ### 3. Controling the car
 
-This simulator gives us acces to two parameters : the speed and direction of the car (the steering wheel).
+This simulator gives us access to two parameters : the speed and direction of the car (the steering wheel).
 For the direction (which we will denote W) we will use a PID controller
 
-PID controller stands for Proportional Integral Derivative and it is a type of device used to control different process variables such as pressure, flow, temperature and speed in industrial applications. In this controller, a control loop feedback device is used to regulate all process variables.
+PID controller stands for Proportional Integral Derivative, and it is a type of device used to control different process variables such as pressure, flow, temperature and speed in industrial applications. In this controller, a control loop feedback device is used to regulate all process variables.
 
 Here we will only use the P and D controllers of the PID controller.
 
@@ -140,7 +140,7 @@ When this happens the car slows down and turns on itself until it finds a line.
 ### 5. Results
 
 I used python3 to develop this algorithm.
-I tried to do a code that can be enderstood by anyone. You can find my code on github, down bellow.
+I tried to do a code that can be understood by anyone. You can find my code on github, down bellow.
 Here are the results I got based on the circuit:
 
 [![Youtube video](./imgs/youtube.png)](https://www.youtube.com/watch?v=vmA412SsqdQ&ab_channel=Luis)
