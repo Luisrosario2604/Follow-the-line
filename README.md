@@ -98,10 +98,11 @@ During the development of this step I choosed to represent this line in order to
 
 <p align="center">
   <img src="./imgs/circuit_2.jpeg">
-
-*Here the blue line is representing the optimal path and the dots are representing the "start" and "end" point*
 </p>
 
+<p align="center">
+  *Here the blue line is representing the optimal path and the dots are representing the "start" and "end" point*
+</p>
 
 ### 3. Controling the car
 
