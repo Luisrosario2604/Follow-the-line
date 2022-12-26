@@ -101,7 +101,7 @@ During the development of this step I choosed to represent this line in order to
 </p>
 
 <p align="center">
-  *Here the blue line is representing the optimal path and the dots are representing the "start" and "end" point*
+  <i>Here the blue line is representing the optimal path and the dots are representing the "start" and "end" point</i>
 </p>
 
 ### 3. Controling the car
