@@ -64,8 +64,8 @@ There is two important aspects of robotics which are: the robustness of the prog
 
 Some images about the simulator
 
-| ![circuit](./imgs/circuit_1.png) |
-| :--: |
+![circuit](./imgs/circuit_1.png){ align="center" }
+
 
 
 ## My solution
@@ -79,8 +79,7 @@ I then pass this image in HSV format and use a color filter with the parameters 
 To find these parameters I used a program that I made.
 This program allows you to play with the hsv parameters and to see the rendering live, like so :
 
-| ![circuit](./imgs/hsv_finder.png) |
-| :--: |
+![circuit](./imgs/hsv_finder.png){ align="center" }
 
 ### 2. Detect the optimal path
 
