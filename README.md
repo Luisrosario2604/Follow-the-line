@@ -24,10 +24,10 @@ You can find more information about my project here : [My website](https://poube
 * Go to [this website](https://unibotics.org/academy/exercise/follow_line/)
 
 
-* import cv2
-* numpy == 1.21.3
-* GUI (custom library)
-* HAL (custom library)
+* numpy == 1.21
+* opencv_python == 4.5.5
+* GUI == 0.0.1 (custom library)
+* HAL == 0.0.3 (custom library)
 
 How to install all the requirements (GUI and HAL) :
 ```bash
