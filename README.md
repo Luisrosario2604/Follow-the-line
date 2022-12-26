@@ -38,7 +38,7 @@ $ docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 608
 ```
 Wait for the Connect button to turn green and display “Connected”. Click on the “Launch” button and wait for some time until an alert appears with the message Connection Established and button displays “Ready”.
 
-######For more information : [website](https://unibotics.org/academy/exercise/follow_line/) (in instructions section). 
+###### For more information : [website](https://unibotics.org/academy/exercise/follow_line/) (in instructions section). 
 
 ## Usage
 
@@ -64,7 +64,9 @@ There is two important aspects of robotics which are: the robustness of the prog
 
 Some images about the simulator
 
-![circuit](./imgs/circuit_1.png)
+| ![circuit](./imgs/circuit_1.png) |
+| :--: |
+
 
 ## My solution
 
@@ -77,7 +79,8 @@ I then pass this image in HSV format and use a color filter with the parameters 
 To find these parameters I used a program that I made.
 This program allows you to play with the hsv parameters and to see the rendering live, like so :
 
-![circuit](./imgs/hsv_finder.png)
+| ![circuit](./imgs/hsv_finder.png) |
+| :--: |
 
 ### 2. Detect the optimal path
 
