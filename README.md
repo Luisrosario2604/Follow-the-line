@@ -64,9 +64,7 @@ There is two important aspects of robotics which are: the robustness of the prog
 
 Some images about the simulator
 
-![circuit](./imgs/circuit_1.png){ align="center" }
-
-
+![circuit](./imgs/circuit_1.png#center)
 
 ## My solution
 
@@ -79,7 +77,7 @@ I then pass this image in HSV format and use a color filter with the parameters 
 To find these parameters I used a program that I made.
 This program allows you to play with the hsv parameters and to see the rendering live, like so :
 
-![circuit](./imgs/hsv_finder.png){ align="center" }
+![circuit](./imgs/hsv_finder.png#center)
 
 ### 2. Detect the optimal path
 
@@ -97,7 +95,7 @@ What makes my robot more robust.
 
 During the development of this step I choosed to represent this line in order to verify that my calculations were correct.
 
-| ![circuit](./imgs/circuit_2.jpeg) |
+| ![circuit](./imgs/circuit_2.jpeg#center) |
 | :--: |
 
 *Here the blue line is representing the optimal path and the dots are representing the "start" and "end" point*
@@ -113,7 +111,7 @@ Here we will only use the P and D controllers of the PID controller.
 
 For the PD controller we used this formula :
 
-| ![circuit](./imgs/formula_1.png) |
+| ![circuit](./imgs/formula_1.png#center) |
 | :--: |
 
 The result obtained from this formula will be used to control the steering wheel direction.
@@ -121,7 +119,7 @@ Thanks to the PD controller we can adjust the intensity of the rotation of the c
 
 Once the rotation of the car has been calculated, we will deduce its speed (named v). Here is a representative formula of this one :
 
-| ![circuit](./imgs/formula_2.png) |
+| ![circuit](./imgs/formula_2.png#center) |
 | :--: |
 
 As we can see the speed depends on the rotation of the car (v depends on the parameter w).
@@ -142,7 +140,7 @@ I tried to do a code that can be enderstood by anyone. You can find my code on g
 Here are the results I got based on the circuit:
 
 
-| [![Youtube video](./imgs/youtube.png)](https://www.youtube.com/watch?v=vmA412SsqdQ&ab_channel=Luis) |
+| [![Youtube video](./imgs/youtube.png#center)](https://www.youtube.com/watch?v=vmA412SsqdQ&ab_channel=Luis) |
 | :--: |
 
 ## Structure
