@@ -1,9 +1,9 @@
 # Follow_the_line
-[Unibotics](https://unibotics.org) exercice [visual follow line](https://unibotics.org/academy/exercise/follow_line/)
+[Unibotics](https://unibotics.org) exercice [visual follow line](https://unibotics.org/academy/follow_line_game/)
 
 #### 👨‍🎓 This project was carried out during my master's degree in computer vision at URJC - Madrid 
 
-Here you will find my solution to the "[visual follow line](https://unibotics.org/academy/exercise/follow_line/)" exercise.
+Here you will find my solution to the "[visual follow line](https://unibotics.org/academy/follow_line_newmanager/)" exercise.
 
 The goal of this one is to realize an algorithm allowing a formula 1 to be autonomous.
 
@@ -21,28 +21,43 @@ You can find more information about my project here : [My website](https://poube
 
 * Python 3.7+
 * [Unibotics](https://unibotics.org) account
-* Go to [this website](https://unibotics.org/academy/exercise/follow_line/)
+* Go to [this website](https://unibotics.org/academy/follow_line_newmanager/)
 
+The script uses this packages : (but no need to install them on your pc)
+* numpy ~= 1.21
+* opencv_python ~= 4.5.5
+* GUI ~= 0.0.1 (custom library)
+* HAL ~= 0.0.3 (custom library)
 
-* numpy == 1.21
-* opencv_python == 4.5.5
-* GUI == 0.0.1 (custom library)
-* HAL == 0.0.3 (custom library)
+Connecting and launching the program :
 
-How to install all the requirements (GUI and HAL) :
+1) Pull the latest RADI image from Docker using the following command :
+
 ```bash
-$ docker pull jderobot/robotics-academy:latest
+sudo docker pull jderobot/robotics-academy:latest
 ```
+
+2) 1) Start the Docker container of the image and keep it running in the background:
+
 ```bash
-$ docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 jderobot/robotics-academy
+sudo docker run --rm -it -p 7681:7681 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 -p 8000:8000 jderobot/robotics-academy:latest
 ```
+
+2) 2) For linux and nvidia users, hardware acceleration can be achieved by using nvidia proprietary drivers, installing VirtualGL and launching the alternative instruction :
+
+```bash
+sudo docker run --rm -it --device /dev/dri -p 7681:7681 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 -p 8000:8000 jderobot/robotics-academy:latest
+```
+
+3) (Re)Load the page and wait for the connection to be established :
+
 Wait for the Connect button to turn green and display “Connected”. Click on the “Launch” button and wait for some time until an alert appears with the message Connection Established and button displays “Ready”.
 
-###### For more information : [website](https://unibotics.org/academy/exercise/follow_line/) (in instructions section). 
+###### For more information : [website](https://unibotics.org/academy/follow_line_game/). 
 
 ## Usage
 
-Copy and paste ```src/Follow_line.py``` in the code section of the website exercise.
+Copy and paste ```src/Follow_line.py``` in the code section of the website exercise and run the script on the website.
 
 ## Project details
 
